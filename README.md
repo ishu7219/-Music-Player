@@ -34,15 +34,15 @@ Bollywood Mush Music Player is a modern, responsive web-based music player focus
 .
 ├── index.html
 
-├── style.css
+ ├── style.css
 
-├── script.js
+ ├── script.js
 
-├── assets/
+ ├── assets/
 
-│ ├── [your music files]
+ │ ├── [your music files]
 
-│ └── [your cover images]
+ │ └── [your cover images]
 
 text
 
