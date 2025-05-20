@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bollywood Mush Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-app">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Playlist</h2>
+            <ul id="playlist"></ul>
+            <button id="add-song-btn" style="margin-top:1rem;width:90%;">Add Song</button>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <nav class="main-tabs">
+                <span class="tab active">Bollywood Mush</span>
+                <input type="text" class="search" id="searchInput" placeholder="Search songs...">
+            </nav>
+            <section class="featured">
+                <div class="featured-info">
+                    <h1 id="featured-title">Bollywood Mush</h1>
+                    <p class="featured-desc">
+                        Dive into the world of soulful Bollywood melodies. Discover, search, and play your favorite tracks!
+                    </p>
+                    <button id="play-featured">PLAY</button>
+                    <button id="follow-featured" class="outline">FOLLOW</button>
+                </div>
+                <div class="featured-bg"></div>
+            </section>
+            <section class="popular-songs">
+                <h3>Popular Songs</h3>
+                <div class="carousel-controls">
+                    <button class="arrow left" id="popSongsLeft">&#8249;</button>
+                    <div class="song-covers" id="popular-songs"></div>
+                    <button class="arrow right" id="popSongsRight">&#8250;</button>
+                </div>
+            </section>
+            <section class="popular-artists">
+                <h3>Popular Artists</h3>
+                <div class="carousel-controls">
+                    <button class="arrow left" id="popArtistsLeft">&#8249;</button>
+                    <div class="artist-covers" id="popular-artists"></div>
+                    <button class="arrow right" id="popArtistsRight">&#8250;</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Bottom Player -->
+    <footer class="bottom-player">
+        <img src="pee loon.jpg" id="player-art" alt="Song Art">
+        <div class="player-info">
+            <span id="player-title">Pee Loon</span>
+            <span id="player-artist">Mohit Chauhan</span>
+        </div>
+        <div class="player-controls">
+            <button id="prev">⏮</button>
+            <button id="play">▶</button>
+            <button id="next">⏭</button>
+        </div>
+        <div class="progress-container" id="progressContainer">
+            <div class="progress" id="progress"></div>
+        </div>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
