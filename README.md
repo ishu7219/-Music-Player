@@ -1,7 +1,6 @@
 # Bollywood Mush Music Player
 
-A modern, responsive music player web app focused on Bollywood melodies.  
-Features dynamic playlist management, popular songs and artists carousels, and a sleek, interactive bottom player.
+Bollywood Mush Music Player is a modern, responsive web-based music player focused on Bollywood melodies. It features a dynamic playlist, popular songs and artists carousels, and an interactive bottom player, all designed for a smooth user experience across devices.
 
 ---
 
